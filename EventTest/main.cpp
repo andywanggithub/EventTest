@@ -24,6 +24,8 @@ int main(void) {
 	hThread_B = CreateThread(NULL, 0, SellTicetB, NULL, 0, 0);
 
 	int a;
+	int b;
+	int c;
 
 	system("pause");
 	return 0;
