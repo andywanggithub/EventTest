@@ -23,6 +23,8 @@ int main(void) {
 	hThread_A = CreateThread(NULL, 0, SellTicetA, NULL, 0, 0);
 	hThread_B = CreateThread(NULL, 0, SellTicetB, NULL, 0, 0);
 
+	int a;
+
 	system("pause");
 	return 0;
 }
