@@ -62,7 +62,7 @@ int main(void) {
 	hThread_A = CreateThread(NULL, 0, SellTicetA, NULL, 0, 0);
 	hThread_B = CreateThread(NULL, 0, SellTicetB, NULL, 0, 0);
 
-	TRACE("####hThread_A 前面");
+	TRACE("####hThread_A 前面");//11111111111111
 	CloseHandle(hThread_A);
 	TRACE("####hThread_A 后面");
 
